@@ -2,7 +2,7 @@
 lista = ["Jose Colinas", 19, 1.75, True, "Python"]
 #Esto es valido porque una lista puede contener diferentes tipos de datos
 lista[0] = "Juan Perez"  # Modifica el primer elemento de la lista
-print(f"lista: {lista[0]}")  # Imprime el elemento en la posición 4 de la lista
+print(f"lista: {lista[0]}")  # Imprime el elemento en la posición 1 de la lista
 
 #Ejemplo de tupla en Python (no se pueden modificar) (son solo de lectura)
 tupla = ("Jose Colinas", 19, 1.75, True, "Python")
@@ -10,7 +10,7 @@ tupla = ("Jose Colinas", 19, 1.75, True, "Python")
 # tupla[0] = "Juan Manuel"  # Intento de modificar el primer elemento de la tupla
 print(f"tupla: {tupla[0]}")  # Imprime el primer elemento de la tupla
 
-#Ejemplo de conjunto en Python (set) (no se pueden acceder a los datos mediante el indice,no se pueden repetir elementos)
+#Ejemplo de conjunto en Python (set) (no se pueden acceder a los datos mediante el indice, no se pueden repetir elementos)
 conjunto = {"Manuel Gomez", "Jose Colinas", 21, 1.65, False, "Python"}
 
 # print(conjunto[1]) # No se puede acceder por índice en un conjunto
